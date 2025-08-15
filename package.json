@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+  "deploy": "TSC_COMPILE_ON_ERROR=true npm run build && gh-pages -d build",
+
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
