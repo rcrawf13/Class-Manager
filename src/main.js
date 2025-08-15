@@ -5,7 +5,7 @@ import App from './App.js'
 import { LocalizationProvider } from '@mui/x-date-pickers'
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns'
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById('root')).render(
   <StrictMode>
 
     <LocalizationProvider dateAdapter={AdapterDateFns}>
