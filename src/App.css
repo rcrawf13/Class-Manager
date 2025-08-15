@@ -1,0 +1,12 @@
+#add {
+    border-radius: 100%;
+    border-style: none;
+    height: 10vh;
+    width: 10vh;
+    margin: 1rem;
+    /* background-image: url('./assets/add_icon.svg'); */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
