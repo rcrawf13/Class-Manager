@@ -45,7 +45,8 @@ function App() {
     <Paper>
       <Grid/>
 
-      <Fab id='add' 
+      <Fab id='add'
+        sx={{backgroundColor:'#F7B0BA'}}
         onKeyDown={(e)=>{
           console.log(e.key)
           if(e.key === "Enter") {
@@ -60,7 +61,7 @@ function App() {
         handleOpen()
         console.log(isOpen)
         }}>
-        <AddIcon/>
+        <AddIcon sx={{fontSize:'2rem', color:'aliceblue'}}/>
       </Fab>
 
 

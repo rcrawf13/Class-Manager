@@ -1,4 +1,18 @@
 select {
     border-radius: 30px;
     padding:.5rem;
+    border-style: none;
+    background-color: #E0E2E5;
+}
+
+
+.MuiDataGrid-topContainer.MuiDataGrid-container--top.css-b1wygl {
+    font-size: 1.2rem;
+    color: aliceblue;
+    font-weight:bolder;
+}
+
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1gtchvp-MuiPaper-root {
+    height: 100%;
 }

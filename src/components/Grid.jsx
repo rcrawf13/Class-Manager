@@ -53,6 +53,8 @@ const getSelectDefaultVal = (params, fieldName) => {
 
   const columns = [
     {field:'class', headerName:'Class', width:130,
+        headerClassName: 'custom-colum',
+        headerAlign: 'center',
         renderCell: (params)=> (
         <select defaultValue={getSelectDefaultVal(params, 'class')} onChange={(e)=>handleCDropdownChange('class',e.target.value,params)} name='classOptions' id='class'>
             <option value="" hidden> </option>

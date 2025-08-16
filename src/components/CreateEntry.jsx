@@ -32,8 +32,8 @@ const submitRecordPrep = () => {
             onClose={handleClose}
             sx={{display:'flex',justifyContent:'center',alignItems:'center'}}
         >
-            <Paper sx={{ height:'auto',width:'30%', display:'flex',justifyContent:'center',alignItems:'center', flexDirection:'column',gap:'2rem',padding:'1rem'}}>
-                <Typography variant="h4">Create Row</Typography>
+            <Paper sx={{ height:'auto',width:'30vh', display:'flex',justifyContent:'center',alignItems:'center', flexDirection:'column',gap:'2rem',padding:'1rem'}}>
+                <Typography variant="h4" sx={{textAlign:'center'}}>Create Assignment</Typography>
                 <Box sx={{display:'flex',flexDirection:'column', gap:'2rem'}}>
                 <TextField
                   label = 'Assignment'
