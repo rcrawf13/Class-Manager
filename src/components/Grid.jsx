@@ -125,6 +125,7 @@ const getSelectDefaultVal = (params, fieldName) => {
             checkboxSelection={false}
             rowHeight={70}
             disableRowSelectionOnClick
+            sx={{height:'100%'}}
           >
           </DataGrid>
     </>
